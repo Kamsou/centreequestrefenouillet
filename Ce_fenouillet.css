@@ -1,0 +1,466 @@
+@font-face {
+  font-family: "Caveat";
+  src: url("./fonts/Caveat-Bold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-Bold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: "Gruppo";
+  src: url("./fonts/Gruppo-Regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.reprise {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .reprise {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-42%);
+  }
+}
+
+/*======================================================
+                     Header + Image
+    ======================================================*/
+#loader {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(15, 37, 97);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: 1s moveUp normal forwards ease-in-out;
+  animation: 1s moveUp normal 4.5 forwards ease-in-out;
+}
+@-webkit-keyframes moveUp {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: -100%;
+  }
+}
+@keyframes moveUp {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: -100%;
+  }
+}
+
+.header-inner {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 670px 10px 50px;
+  position: relative;
+}
+
+@media screen and (max-width: 1051px) {
+  .header-inner {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px 10px;
+  }
+}
+
+.conception_work {
+  color: white;
+}
+
+.gros-titre h1 {
+  font-size: 30px;
+
+  color: floralwhite;
+
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+  line-height: 59px;
+}
+
+.mini_title {
+  text-transform: lowercase;
+  font-family: "Caveat";
+}
+
+.gros-titre .ambiance {
+  font-size: 2em;
+  line-height: 58px;
+  letter-spacing: 0px;
+  color: #f7f7f7;
+  font-family: "Caveat";
+  position: absolute;
+  bottom: 44px;
+  left: 77px;
+}
+
+@media screen and (max-width: 1051px) {
+  .gros-titre h1 {
+    font-size: 15px;
+
+    color: floralwhite;
+
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10px;
+    left: 50px;
+    line-height: 59px;
+  }
+  .gros-titre .ambiance {
+    font-size: 1em;
+    line-height: 58px;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    font-family: "Caveat";
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+  }
+}
+
+/*======================================================
+                         Article 1
+        ======================================================*/
+.pres-titre {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.hey1 h2 {
+  font-family: "Gruppo", cursive;
+}
+
+.hey1 h3 {
+  font-family: "Dokdo", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #233872;
+  text-align: center;
+}
+
+.hey2 {
+  margin-top: 90px !important;
+}
+
+.s {
+  font-size: 40px;
+  color: #233872;
+}
+
+/*======================================================
+                         Bouton
+        ======================================================*/
+.rouge {
+  background-color: #5989db !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.instal {
+  margin-top: 20px;
+  position: relative;
+  left: 230px;
+}
+
+.annee {
+  font-family: "Titillium Web", sans-serif;
+}
+
+@media screen and (max-width: 1051px) {
+  .annee {
+    margin-top: 25%;
+  }
+}
+
+.question {
+  font-family: "Titillium Web", sans-serif;
+}
+
+/*======================================================
+                         Article 2
+        ======================================================*/
+.enseignant-titre {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.question-formation {
+  color: black !important;
+  /* font-family: "Mrs Sheppards", cursive !important; */
+  font-family: "Sedgwick Ave Display", cursive !important;
+  letter-spacing: 3px;
+  font-size: 2.5em;
+  margin-top: 250px !important;
+}
+
+.noir {
+  background-color: rgb(35, 56, 114) !important;
+  color: white !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.noir:hover {
+  background-color: #3d3d3d !important;
+}
+.rouge:hover {
+  background-color: #ce5656 !important;
+}
+
+.container {
+  width: 247px;
+  height: 400px;
+  margin: 60px 20px;
+  /* margin-left: 1000px; */
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card_head {
+  position: relative;
+  background: #ffffff;
+  border-radius: 25px 25px 0 0;
+  height: 180px;
+}
+
+.card_logo {
+  width: 78px;
+  margin: 2px;
+}
+
+.product_img {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  margin-top: 30px;
+  margin-left: 50px;
+  z-index: 10;
+}
+
+.product_detail {
+  padding: 0;
+  font-size: 11px;
+  color: black;
+  width: 210px;
+  padding-top: 20px;
+  line-height: 14px;
+}
+
+.product_detail h2 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 !important;
+  font-family: "Titillium Web", sans-serif !important;
+  line-height: 20px !important;
+}
+.product_detail p {
+  font-size: 11px !important;
+  font-family: Helvetica, sans-serif !important;
+  margin-top: 10px !important;
+}
+
+.subtitle {
+  font-family: Helvetica, sans-serif !important;
+  font-size: 9px !important;
+  position: relative;
+  top: -20px;
+  text-transform: capitalize;
+}
+
+.card_star {
+  width: 10px;
+  margin-top: 5px;
+}
+
+.card_body {
+  height: 115px;
+  background: #ffffff;
+  border-radius: 0 0 25px 25px;
+}
+
+.product_title {
+  padding: 0px 20px 5px 20px;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.product_title b {
+  font-weight: 900;
+  letter-spacing: 0px;
+}
+
+.badge {
+  position: relative;
+  font-size: 10px;
+  font-weight: 300;
+  color: #ffffff;
+  background: #383838;
+  padding: 2px 5px;
+  border-radius: 4px;
+  top: -2px;
+  margin-left: 5px;
+}
+
+.product_rating {
+  padding: 0 2px;
+  font-size: 11px;
+  display: block;
+}
+
+.product_size h4 {
+  font-size: 11px;
+  padding: 0 21px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.ul_size {
+  margin-left: 15px;
+}
+
+.ul_size li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+
+.ul_size li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 11px;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 23px;
+  color: #000000;
+}
+
+.ul_size li a.active {
+  background: #0361ba;
+  color: #ffffff;
+}
+
+.product_size:before,
+.product_size:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.product_color h4 {
+  font-size: 11px;
+  padding: 0 21px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.ul_color {
+  margin-left: 27px;
+}
+
+.ul_color li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+
+.ul_color li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 11px;
+  text-align: center;
+  line-height: 23px;
+  color: #000000;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+}
+
+.ul_color li a.active {
+  background: #0361ba;
+  color: #ffffff;
+}
+
+.product_price {
+  position: absolute;
+  background: #383838;
+  padding: 7px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 200;
+  color: #ffffff;
+  border-radius: 7px;
+  margin-top: -13px;
+  margin-left: -10px;
+  box-shadow: -10px 20px 15px -10px #383838;
+}
+
+.product_price b {
+  margin-left: 30px;
+}
+
+.pleaseAlign {
+  display: grid;
+  padding-top: 40px;
+  padding-bottom: 192px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  background-color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+  .pleaseAlign {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  #loader img {
+    width: 180%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pleaseAlign {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

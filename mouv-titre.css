@@ -1,0 +1,46 @@
+header nav ul li a:hover {
+    color: #70a1ff;
+    text-decoration: none;
+    }
+
+header nav ul li a:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #1B1464;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    opacity: 0;
+    transition: .5s ease;
+    }
+
+header nav ul li a:after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color:#1B1464;
+    bottom: 0;
+    right: 0;
+    border-radius: 50px;
+    opacity: 0;
+    transition: .5s ease;
+    }
+
+header nav ul li a:hover:before {
+    width: 50%;
+    background-color: #1B1464;
+    border-radius: 50px 0px 0px 50px;
+    opacity: 1;
+    }
+
+header nav ul li a:hover:after {
+    width: 50%;
+    background-color: #1B1464;
+    border-radius: 0px 50px 50px 0px;
+    opacity: 1;
+ 
+
+}

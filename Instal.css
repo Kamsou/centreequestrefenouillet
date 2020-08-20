@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-Bold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.instal {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+}
+
+.uk-margin-remove {
+  font-family: "Times New Romans";
+  font-size: 20px;
+}
+/* Badges club */
+.jeunesse {
+  width: 7%;
+  height: auto;
+  margin-top: 20px;
+}
+.b-cheval {
+  width: 14%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.conception_work {
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+  .jeunesse {
+    width: 23%;
+  }
+  .b-cheval {
+    width: 54%;
+  }
+  .uk-width-1-2 {
+    width: 80% !important;
+  }
+}
+
+.uk-icon {
+  background-color: #233872 !important;
+}
+
+.uk-card-small.uk-card-body {
+  padding: 70px 20px !important;
+}

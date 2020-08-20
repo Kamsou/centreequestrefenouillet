@@ -1,0 +1,118 @@
+
+  
+  /*======================================================
+                     Header + Image
+    ======================================================*/
+
+
+ .header-inner {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 670px 10px 50px;
+} @media screen and (max-width: 1051px) {
+    .header-inner {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 100px 10px;
+    }
+}
+
+.gros-titre {
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    } .gros-titre h1 {
+        font-size: 110px;
+        color: #3656af;
+        font-family: 'Mrs Sheppards', cursive;
+        font-weight: bold;
+        position: absolute;
+      } .gros-titre .ambiance {
+        font-size: 4.5em;
+        line-height: 58px;
+        letter-spacing: -4px;
+        color: white;
+        font-family: 'Hammersmith One', sans-serif;
+        position: absolute;
+        margin-top: 2.2em;
+      } @media screen and (max-width: 1051px) {
+        .gros-titre h1 {
+            display: none;
+        }
+    }
+
+    /*======================================================
+                     Article 1
+    ======================================================*/
+.pres-titre {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.hey1 h2  {
+    font-family: 'Gruppo', cursive;
+}
+
+.hey1 h3 {
+    font-family: 'Dokdo', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #233872;
+    text-align: center;
+}
+
+.hey2 {
+    margin-top: 40px !important;
+}
+
+.s {
+    font-size: 40px;
+    color: #233872;
+}
+/*======================================================
+                     Bouton
+    ======================================================*/
+.rouge {
+    background-color: #ff4d4d !important;
+}
+
+.instal {
+    margin-top: 20px;
+    position: relative;
+    left: 230px;
+}
+.annee {
+    font-family: 'Titillium Web', sans-serif;   
+} @media screen and (max-width: 1051px) {
+    .annee {
+        margin-top: 25%;
+    }
+}
+
+.question {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*======================================================
+                     Article 2
+    ======================================================*/
+
+.enseignant-titre {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.question-formation {
+    color: brown !important;
+    font-family: 'Mrs Sheppards', cursive !important;
+    letter-spacing: 3px;
+    font-size: 4.5em;
+}
+
+.noir {
+    background-color: black !important;
+    color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.noir:hover {
+    background-color: brown !important;
+
+}

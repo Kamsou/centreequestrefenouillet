@@ -1,0 +1,50 @@
+/*======================================================
+                     Footer
+    ======================================================*/
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-Bold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.mdl-logo img {
+  width: 100%;
+  height: 70px;
+}
+.mdl-mega-footer__link-list {
+  float: right;
+}
+
+.mdl-mega-footer__link-list li a img {
+  width: 42px;
+  height: 42px;
+}
+
+.blue {
+  background-color: #233872 !important;
+  color: white !important;
+}
+.uk-padding h4 {
+  font-weight: bold;
+  color: white;
+}
+.uk-padding img {
+  width: 52px;
+  height: 52px;
+}
+
+.conception {
+  font-size: 9px;
+  font-style: italic;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.copy {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+
+.white {
+  color: white;
+}

@@ -1,0 +1,83 @@
+.conception_work {
+  color: white;
+}
+
+.bigTitleContact {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.contact-style {
+  font-size: 25vh;
+  text-align: center;
+  margin-top: 5%;
+}
+.contact-mail {
+  font-size: 5vh;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10%;
+}
+#contact a {
+  text-decoration: none;
+  color: #4a69bd;
+}
+
+/* FORM */
+
+.contactMe {
+  text-align: center;
+}
+/* 
+.form {
+  text-align: center;
+    font-size: 25vh;
+    text-align: center;
+    margin-top: 5%;
+}
+.contact-mail {
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+}
+#contact a {
+    text-decoration: none;
+    color:#4a69bd;
+}
+
+input {
+  width: 50%;
+  margin: 20px 0;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  color: #eaeaea;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+button {
+  padding: 10px 32px;
+  font-size: 16px;
+  background: black;
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+} */
+
+.linkMail {
+  text-align: center;
+  padding: 5%;
+  text-decoration: none;
+  color: #4a69bd;
+  font-size: 25px;
+}
+.titre-contact {
+  text-align: center;
+}
