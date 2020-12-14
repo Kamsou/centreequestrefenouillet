@@ -1,14 +1,11 @@
-name: Test push 2 branchs
-
 on:
   push:
     branches: [ main, staging]
 
+name: Deploy 2 branchs
+
 jobs:
-  build:
-
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Test push 2 branchs
-    - uses: actions/checkout@master
+      - uses: actions/checkout@v2
