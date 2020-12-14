@@ -1,0 +1,14 @@
+name: Test push 2 branchs
+
+on:
+  push:
+    branches: [ main, staging]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test push 2 branchs
