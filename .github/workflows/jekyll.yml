@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
     - name: Test push 2 branchs
+    - uses: actions/checkout@master
