@@ -18,7 +18,7 @@ jobs:
         git config user.email "<>"
     - name: push changes to remote
       run: |
-
+        git remote set-url --add origin https://github.com/Kamsou/centreequestrefenouillet
         git checkout staging
         git reset --hard origin/master
         git push -f origin staging
