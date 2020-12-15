@@ -14,11 +14,9 @@ jobs:
     - name: setup git config
       run: |
         # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-        git config user.name "GitHub Actions Bot"
-        git config user.email "<>"
+        git remote set-url --add origin https://github.com/Kamsou/centreequestrefenouillet
     - name: push changes to remote
       run: |
-        git remote set-url --add origin https://github.com/Kamsou/centreequestrefenouillet
         git checkout staging
         git reset --hard origin/master
         git push -f origin staging
