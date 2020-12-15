@@ -11,5 +11,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: push changes to remote
+      run: |
+        git config --global user.name "Camille Coutens"
+        git config --global user.email "camille@japhy.fr"
+
+        git checkout staging
+        git reset --hard origin/master
+        git push -f origin staging
 
           
