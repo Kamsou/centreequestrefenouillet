@@ -5,18 +5,11 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  test:
+    name: Running Units Tests
     runs-on: ubuntu-latest
-    steps: 
-      - name: Checkout code
-        uses: actions/checkout@v2
 
-      - name: push changes to remote
-        run: |
-          git config --global user.name "Camille Coutens"
-          git config --global user.email "camille@japhy.fr"
+    steps:
+    - uses: actions/checkout@v1
 
-          git checkout staging
-          git reset --hard origin/master
-          git push -f origin staging
           
