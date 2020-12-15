@@ -9,8 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: commit
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: push changes to remote
         run: |
-          # Stage the file, commit and push
+          git config --global user.name "Camille Coutens"
+          git config --global user.email "camille@japhy.fr"
+
           git checkout staging
-          git reset --hard origin/master
+          git reset --hard origin/main
           git push -f origin staging
+          
