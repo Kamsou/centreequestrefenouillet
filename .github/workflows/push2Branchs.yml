@@ -1,0 +1,16 @@
+name: Push 2 branchs
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          git checkout staging
+          git reset --hard origin/main
+          git push -f origin staging
