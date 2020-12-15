@@ -17,6 +17,6 @@ jobs:
           git config --global user.email "camille@japhy.fr"
 
           git checkout staging
-          git reset --hard origin/main
+          git reset --hard origin/master
           git push -f origin staging
           
