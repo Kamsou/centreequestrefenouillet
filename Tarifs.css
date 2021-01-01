@@ -67,12 +67,28 @@
   color: white;
 }
 
+.tarifs_2021 {
+  display: flex;
+  padding: 10% 0 10% 0;
+  justify-content: space-evenly;
+}
+
+.tarifs_2021 img {
+  width: 30%;
+}
+
 @media screen and (max-width: 640px) {
   .t-annee {
     text-align: center;
     padding: 50px 0;
   }
-  .tarifs-2018-img {
-    height: 500px;
+  .tarifs_2021 {
+    display: block;
+  }
+  
+  .tarifs_2021 img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
   }
 }
