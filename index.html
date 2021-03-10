@@ -48,7 +48,7 @@
             <!-- Logo Placeholder for Inlustration -->
             <a href="/"><i class="fas fa-chess-knight"></i> <img src="img/logotest.png" alt="Logo Fenouillet"> </a>
           </div>
-          <!-- <p class="reprise"> Inscriptions 2020/2021 ouvertes !</p> -->
+          <!-- <p class="reprise"> Bonne et heureuse année 2021 !</p> -->
           <!-- Navbar Links -->
           <ul id="menu" class="menu">
                 <li><a href="/"> Présentation </a></li>
@@ -405,13 +405,15 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
             // Header Scroll ========================================
             $(function () {
                 $(window).scroll(function () {
-                if ($(window).scrollTop() >= 50) {
-                $('.header').css('background','#233872');
-                $('#navbar li a').css('color', 'white');
-                } else {
-                $('.header').css('background','transparent');
-                $('#navbar li a').css('color', 'Black');
-                }               
+                  if ($(window).scrollTop() >= 50) {
+                    $('.header').css('background','#233872');
+                    $('#navbar li a').css('color', 'white');
+                    $('.nav-wrapper p').css('color', 'white');
+                  } else {
+                    $('.header').css('background','transparent');
+                    $('#navbar li a').css('color', 'Black');
+                    $('.nav-wrapper p').css('color', 'Black');
+                  }               
                 });
             })
             
