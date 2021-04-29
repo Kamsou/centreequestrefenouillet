@@ -3,6 +3,15 @@
   src: url("./fonts/TitilliumWeb-Bold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+.info-covid {
+  max-width: 535px;
+  margin: 50px auto 20px;
+  line-height: 27px;
+  font-size: 21px;
+  color: darkred;
+  font-style: italic;
+}
+
 .bigTitleContact {
   font-family: "Titillium Web", sans-serif;
 }
@@ -11,9 +20,8 @@
   font-weight: bold;
 }
 
-.pad {
-  margin: 2% 20%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+.subtitle {
+  font-family: -apple-system, BlinkMacSystemFont !important;
 }
 
 .activ {
@@ -73,10 +81,16 @@
   .activ {
     font-size: 25px;
   }
-  .stages_top p {
-    font-size: 10px;
-  }
   .mob_size {
     padding: 0 50px !important;
+  }
+  .info-covid {
+    font-style: italic;
+    max-width: 100%;
+    margin: 20px 20px;
+    line-height: 21px;
+    font-size: 18px;
+    color: darkred;
+    font-style: italic;
   }
 }
