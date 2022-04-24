@@ -255,6 +255,8 @@
 .card_logo {
   width: 78px;
   margin: 2px;
+  position: absolute;
+  z-index: 1;
 }
 
 .product_img {
@@ -264,7 +266,6 @@
   left: 0;
   margin-top: 30px;
   margin-left: 50px;
-  z-index: 10;
 }
 
 .product_detail {
